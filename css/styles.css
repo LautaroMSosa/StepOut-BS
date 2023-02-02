@@ -78,6 +78,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: 100vh;
 }
 
 hr {
@@ -226,11 +227,11 @@ sup {
 }
 
 a {
-  color: #0d6efd;
-  text-decoration: underline;
+  color: #fafafa;
+  text-decoration: none;
 }
 a:hover {
-  color: #0a58ca;
+  color: #32363b;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3200,14 +3201,14 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  color: #000;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: rgb(198, 184, 184);
+  background-color: #181818;
+  background-color: #181818;
 }
 .btn-light:hover {
-  color: #000;
-  background-color: #f9fafb;
-  border-color: #f9fafb;
+  color: rgb(213, 200, 200);
+  background-color: #292929;
+  background-color: #292828;
 }
 .btn-check:focus + .btn-light, .btn-light:focus {
   color: #000;
@@ -11353,5 +11354,39 @@ html {
   align-items: center;
   justify-content: center;
   margin: 10px;
+
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.col-menu {
+
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  
+}
+
+.col-imagen{
+
+  height: 100%;
+  width: 100%;
+  
+}
+.imagencarrusel {
+
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+
+}
+
+.titulo-h2 {
+  margin-top: 150px;
+  margin-bottom: 100px;
 
 }
