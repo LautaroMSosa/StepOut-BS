@@ -11366,6 +11366,7 @@ html {
 .col-menu {
 
   display: flex;
+
   align-items: flex-start;
   gap: 20px;
   
@@ -11388,5 +11389,15 @@ html {
 .titulo-h2 {
   margin-top: 150px;
   margin-bottom: 100px;
+  align-items: center;
+  gap: 20px;
+}
+
+.imagencarrusel {
+
+  height: 100px;
+  width: 70px;
+  justify-content: center;
+
 
 }
