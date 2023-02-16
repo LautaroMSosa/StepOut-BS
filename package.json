@@ -1,0 +1,20 @@
+{
+  "name": "stepout-bs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroMSosa/StepOut-BS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroMSosa/StepOut-BS/issues"
+  },
+  "homepage": "https://github.com/LautaroMSosa/StepOut-BS#readme"
+}
