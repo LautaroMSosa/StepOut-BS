@@ -294,12 +294,14 @@ html{
 
 
   .col-imagen{
+  display: flex;
   height:100%;
   width:100%
 }
 
-  .titulo-h2 {
+.titulo-h2 {
     margin-top:150px;
     margin-bottom:100px;
     align-items:center;
     gap:20px}
+
